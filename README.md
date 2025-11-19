@@ -1,7 +1,21 @@
 # DS-4002-Project-3
 ## Section 1: Software and Platform 
-For this project we used python and specific packages listed below. The platforms used were windows and mac and the types of software being used were Juypter notebook and the kernels: Python 3.9 (pytorch) and Python (fruitev) 
+For this project we used python and specific packages listed below. The platforms used were Windows and Mac and the types of software being used were Juypter notebook and the kernels: Python 3.9 (pytorch).  
 ### Required imports and libraries:
+```python
+from torchvision import datasets, transforms
+from collections import Counter
+import os
+from torchvision import datasets, transforms
+import torch
+import torch.nn as nn
+from torch.utils.data import DataLoader, random_split
+from torchvision import models
+from sklearn.metrics import classification_report
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+```
 
 ## Section 2: Map of Documentation 
 

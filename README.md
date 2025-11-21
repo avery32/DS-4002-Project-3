@@ -112,13 +112,13 @@ From the repo root, run:
 python SCRIPTS/01_train_val_test_split.py
 ```
 which results to
-``` bash
+```
 DATA/dataset_splits/train/
 DATA/dataset_splits/val/
 DATA/dataset_splits/test/
 ```
 Each folder contains
-``` bash
+```
 Fresh/
 Rotten/
 ```
